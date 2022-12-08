@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primer Proyecto en Android"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese un numero" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el numero 2" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonSumar"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/button_Restar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonRestar"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/buttonMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonMultiplicar"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/button_Dividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonDividir"
+        android:text="Dividir" />
+
+    <Button
+        android:id="@+id/button_Potencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonPotencia"
+        android:text="Potencia" />
+
+    <Button
+        android:id="@+id/button_Factorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click_buttonFactorial"
+        android:text="Factorial" />
+
+</LinearLayout>
